@@ -51,6 +51,7 @@ git branch <branch-name>
 git checkout <branch-name>
 git remote add origin GITHUB URL HERE
 git push -u origin master
+git clone GITHUBLINK
 
 1. make sure node.js is installed and npm is up to date. run the command  -- npx create-react-app myapp -- to create 
     a new react application named myapp.
@@ -66,7 +67,9 @@ git push -u origin master
     after making changes to the files use command -- git add -A -- to add changed files to the stating area.
     from the staging area use command -- git commit -m "commit message" -- to commit changes. then run 
     -- git remote add origin GITHUB URL HERE . you'll copy the githud repo link and paste it where the placeholder 
-    text is. To finally push all the commits to the guthub server use the command -- git push -u origin master --
+    text is. To finally push all the commits to the guthub server use the command -- git push -u origin master --. 
+    forking a github project use -- git checkout -b 'branch-name' -- to create a new branch. go to github and click
+    fork on a repo and copy the github link. then use -- git clone GITHUBLINK -- to clone the repo to your local shit.
 
 4. clean up the react file tree by deleting unwanted files and refactoring the code in the app.js and index.js 
     files. make a components folder and add components and start building app.
